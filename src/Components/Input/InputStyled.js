@@ -31,6 +31,7 @@ export const StyledInput = styled.input`
 export const SpanErroMessage = styled.span`
     margin:-10px 0 15px 0;
     color:#FF377F;
-    display:${props=>props.display}
+    display:${props=>props.display};
+    cursor: default;
 
 `

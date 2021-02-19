@@ -13,7 +13,7 @@ const Input = forwardRef((props,ref)=>{
 
     return(
          <DivMain>
-            <span style={{marginLeft:'5px'}}>{props.name}</span>
+            <span style={{marginLeft:'5px',cursor:"default"}}>{props.name}</span>
             <StyledInput onBlur={(event)=>VerifyEmail(event.target.value)} ref={ref} type={props.type}/>
             <SpanErroMessage display={props.type ==='Text'?'unset':'none'}>{erroMessage}</SpanErroMessage>
         </DivMain>

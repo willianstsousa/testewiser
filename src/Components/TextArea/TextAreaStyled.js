@@ -15,6 +15,7 @@ export const TextSpanStyled = styled.span`
     font-size:${props=>props.size};
     color:${props=>props.color};
     line-height:${props=>props.lineHeight ? props.lineHeight : '20px'};
+    cursor: default;
     @media(max-width:400px){
         font-size:${props=>props.size.replace('px','')/1.3}px;
     }
