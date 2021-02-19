@@ -10,4 +10,4 @@ Para testar a verificação do email: Digite qualquer coisa sem @ ou .com que
 
 retornará a mensagem de e-mail inválido.
 
-Para retornar sucesso informe o e-mail :willianstorres@testewise.com e a senha:abc1dois3
+Para retornar sucesso informe o e-mail: willianstorres@testewise.com e a senha: abc1dois3
